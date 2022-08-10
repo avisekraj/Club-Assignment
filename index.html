@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>IEEE Assignment</title>
+        <style>
+         * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            }
+        .topnav {
+            overflow: hidden;
+            width:100%;
+            background-color:fuchsia;
+            border: solid 5px lightslategrey}
+        .topnav a {
+            float: left;
+            display: block;
+            color:black;
+            text-align: center;
+            padding: 20px 30px;
+            text-decoration: none;
+          }
+          .topnav a:hover {
+            background-color:fuchsia;
+            color:black ;
+          }
+          .search input[type=text]{
+            width:200px;
+            height:20px;
+            border: none;
+ 
+        }
+         
+        .search{
+            float:right;
+            margin:20px;
+ 
+        }
+         
+        .search button{
+            background-color:black;
+            color: #f2f2f2;
+            float: right;
+            padding: 5px 10px;
+            margin-right: 5px;
+            font-size: 12px;
+            border: none;
+            cursor: pointer;
+        }
+        body {
+          width: 100%;
+            justify-content: center;
+            
+        }
+        .box-wrapper {
+            height: 60vh;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+        #box1 {
+            padding: 1px;
+            width: 100%;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: row;
+        }
+ 
+        #box2{
+            flex-grow: 1;
+            padding:20px;
+            width: 100%;
+            background-color:white;
+            border: solid 8px lightslategrey
+        }
+        #box3 {
+            flex-grow: 5;
+            padding:20px;
+            width: 200px;
+            height: 500px;
+            background-color:fuchsia;
+            border: solid 8px lightslategrey
+        }
+        #box4 {
+            padding: 1px;
+            width: 1500px;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: row;
+        }
+ 
+        #box5 {
+            vertical-align: bottom;
+            flex-grow: 5;
+            padding:2px;
+            width: 1500px;
+            height: 55px;
+            background-color:white;
+            border: solid 8px lightslategrey
+        }
+        </style>
+    </head>
+    <body style="background-color:lightslategrey">
+        <div class="first">
+            <div style="color:white;font-style: oblique;font-size:34px;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif">
+            <h1 align="center">Header</h1>
+            </div>
+            <!--navigation bar center align-->
+            <div class="topnav">
+                <a href="#">HOME</a>
+                <a href="#">OUR TEAM</a>
+                <a href="#">PROJECTS</a>
+                <a href="#">CONTACT</a>
+                <!-- search bar right align -->
+                <div class="search">
+             
+                <form action="#">
+                    <input type="text"
+                        placeholder=" Search query"
+                        name="search">
+                    <button type="submit">Go</button>
+                </form>
+                </div>
+            </div>
+            <div class="box-wrapper">
+                <div id="box1">
+                    <div id="box2">
+                        <div style="font-style: oblique;font-size:15px;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif">
+                        <h1 align="center">Article Heading</h1>
+                        <div style="font-style:normal;font-size:15px;font-family:'Times New Roman', Times, serif">
+                        <p align="justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Donec a diam lectus. Set sit amet ipsum mauris. Maecenas congue ligula as quam viverra nec consectetur ant hendrerit. Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur.</p>
+                        <br>
+                        </div>
+                        <h1 align="left"><b>subsection</b></h1>
+                        <br>
+                        <div style="font-style:normal;font-size:15px;font-family:'Times New Roman', Times, serif">
+                        <p align="justify">Donec ut librero sed accu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aenean ut gravida lorem. Ut turpis felis, pulvinar a semper sed, adipiscing id dolor.</p>
+                        <br>
+                        <p align="justify">Pellentesque auctor nisi id magna consequat sagittis. Curabitur dapibus, enim sit amet elit pharetra tincidunt feugiat nist imperdiet. Ut convallis libero in urna ultrices accumsan. Donec sed odio eros.</p>
+                        <br>
+                        </div>
+                        <h1 align="left"><b>Another subsection</b></h1>
+                        <br>
+                        <div style="font-style:normal;font-size:15px;font-family:'Times New Roman', Times, serif">
+                        <p align="justify">Donec viverra mi quis quam pulvinar at malesuada arcu rhoncus. Cum sociis natoque penatibus et manis dis parturient montes, nascetur ridiculus mus. In rutrum accumsan ultricies. Mauris vitae nisi at sem facilisis semper ac in est.</p>
+                        <br>
+                        <p align="justify">Vivamus fermentum semper porta. Nunc diam velit, adipscing ut tristique vitae sagittis vel odio. Maecenas convallis ullamcorper ultricies. Curabiturornare, ligula semper consectetur sagittis, nisi diam iaculis velit, is fringille sem nunc vetmi.</p>
+                        <br>
+                        </div>
+                        </div>
+                    </div>
+                    <div id="box3">
+                        <div style="font-style: oblique;font-size:15px;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif">
+                        <h1 align="center"><b>Related</b></h1></div>
+                        <br>
+                        <ul align="center">
+                            <li align="justify"><a href="#Oh i do like to be beside the seaside">Oh i do like to be beside the seaside</li>
+                            <br>
+                            <li align="justify"><a href="#Oh i do like to be beside the sea">Oh i do like to be beside the sea</li>
+                            <br>
+                            <li align="justify"><a href="#Although in the North of England">Although in the North of England</li>
+                            <br>
+                            <li align="justify"><a href="#It never stops raining">It never stops raining</li>
+                            <br>
+                            <li align="justify"><a href="#Oh well...">Oh well...</li>
+                        </ul>
+                        
+                    </div>
+                    </div>
+                <div id="box4">
+                    <div id="box5">
+                        <div style="font-size:15px;font-family:'Times New Roman', Times, serif">
+                        <p align="justify">    ©Copyright 2050 by nobody.All rights reserved.</p>
+                        <br>
+                        </div>
+                    </div>
+                    </div>
+                    
+            </div>
+        </div>
+    </body>
+</html>
